@@ -12,22 +12,41 @@ The [Reuse Tool](https://reuse.software/) must be used for your samples project.
 3. The README.md file (this file):
 Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
 
-# [Title]
-<!-- Please include descriptive title -->
+# Hands-On Tutorial: Manage & Run Machine Learning Models in R through Docker as preparation to deployment in SAP BTP, Kyma2.0 runtime
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
 -->
 
 ## Description
-<!-- Please include SEO-friendly description -->
+This Github repository provides the material used in a HandsOn blog, which covers the following main steps:
+
+1. Create an API endpoint to be able to communicate with the application and create predictions with a machine learning model
+2. Containerize R script in Docker image with all the requirements and dependencies
+3. Deploy Machine Learning Model in R with Kyma 2.0 on SAP Business Technology Plattform
 
 ## Requirements
+There are some sample-specific requirements that you can find in detail in the Hands-On blog.
+In summary the following software/editors are required:
+
+- R Editor like [RStudio](https://www.rstudio.com/)
+- [Docker for Windows](https://docs.docker.com/desktop/windows/install/)
+- [Docker Hub Account](https://hub.docker.com/)
+- Command Line Tool like [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.1)
+
+To run the sample in the SAP BTP Trial, Kyma runtime an active SAP BTP Trial account is required with an enabled Kyma environment.
 
 ## Download and Installation
+The sample files can be downloaded and used within the respective user / developer environment, e.g. R files may be opened and used within a R Editor. The sample files don't require an installation step for themselves, they are simply downloaded and then opened in the respective editor. Through the Dockerfile and the R script the following R libraries will be installed:
 
+1. mlr
+2. beakr
+3. randomForest
+ 
+ Further, some by the library 'mlr' required ubuntu libraries will be installed.
+ 
 ## Known Issues
-<!-- You may simply state "No known issues. -->
+ Currently, there are no known issues for the sample project.
 
 ## How to obtain support
 [Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
