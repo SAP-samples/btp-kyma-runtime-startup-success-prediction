@@ -1,6 +1,6 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/startup-success-prediction-with-btp-kyma-runtime)](https://api.reuse.software/info/github.com/SAP-samples/startup-success-prediction-with-btp-kyma-runtime)
 
-# Hands-On Tutorial: Manage & Run Machine Learning Models in R through Docker as preparation to deployment in SAP BTP, Kyma2.0 runtime
+# Hands-On Tutorial: Manage and Run Machine Learning Models in R through Docker as Preparation to Deployment in SAP BTP, Kyma 2.0 Runtime
 
 <!--- Register repository https://api.reuse.software/register, then add REUSE badge:
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
