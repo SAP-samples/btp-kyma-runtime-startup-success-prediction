@@ -1,4 +1,5 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/startup-success-prediction-with-btp-kyma-runtime)](https://api.reuse.software/info/github.com/SAP-samples/startup-success-prediction-with-btp-kyma-runtime)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-kyma-runtime-startup-success-prediction)](https://api.reuse.software/info/github.com/SAP-samples/btp-kyma-runtime-startup-success-prediction)
+
 
 # Hands-On Tutorial: Manage and Run Machine Learning Models in R through Docker and in SAP BTP, Kyma 2.0 Runtime
 
